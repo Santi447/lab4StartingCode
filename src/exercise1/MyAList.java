@@ -19,6 +19,27 @@ public class MyAList<E> implements Iterable<E>
 			list.add(item);
 		}
 	}
+	public E get(int index) {
+		return null;
+	}
+	public void remove(int index) {
+		return;
+	}
+	public void set(int index, E item) {
+		return;
+	}
+	public int size() {
+		return 1;
+	}
+	public boolean isEmpty() {
+		return true;
+	}
+	public Object [] toArray() {
+		return null;
+	}
+	public void clear() {
+		return;
+	}
 	@Override
 	public Iterator<E> iterator()
 	{
