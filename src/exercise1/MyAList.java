@@ -20,31 +20,35 @@ public class MyAList<E> implements Iterable<E>
 		}
 	}
 	public E get(int index) {
-		return null;
+
+		return list.get(index);
 	}
 	public void remove(int index) {
-		return;
+		list.remove(index);
 	}
 	public void set(int index, E item) {
-		return;
+		list.set(index, item);
+		
 	}
 	public int size() {
-		return 1;
+		return list.size();
 	}
 	public boolean isEmpty() {
-		return true;
+		
+		return list.isEmpty();
 	}
 	public Object [] toArray() {
-		return null;
+		return list.toArray();
 	}
 	public void clear() {
-		return;
+		
+		list.clear();
 	}
 	@Override
 	public Iterator<E> iterator()
 	{
-		// TODO Auto-generated method stub
-		return null;
+		return list.iterator();
+	
 	}
 
 }
