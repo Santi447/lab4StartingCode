@@ -97,63 +97,63 @@ public class AppDriver
 		System.out.println( "\n\n" );
 
 //		// testing DList implementation
-//		MyDList<Integer> dList = new MyDList<>();
+		MyDList<Integer> dList = new MyDList<>();
 //
 //		// testing new object
-//		System.out.println( "Size: " + dList.size() );
-//		System.out.println( "IsEmpty? " + dList.isEmpty() );
+		System.out.println( "Size: " + dList.size() );
+		System.out.println( "IsEmpty? " + dList.isEmpty() );
 //
 //		// testing addFirst() (Thanks ChatGPT for the numbers!)
-//		dList.addFirst( 10 );
-//		dList.addFirst( 25 );
-//		dList.addFirst( 8 );
-//		dList.addFirst( 17 );
-//		dList.addFirst( 42 );
-//		dList.addFirst( 56 );
-//		dList.addFirst( 33 );
-//		dList.addFirst( 71 );
-//		dList.addFirst( 94 );
-//		dList.addFirst( 12 );
-//
-//		MyNode<Integer> curr = dList.getHead();
-//		for( int i = 0; i < dList.size(); i++ )
-//		{
-//			System.out.println( "Add First: " + curr.getElement() );
-//			curr = curr.getNext();
-//		}
-//
+		dList.addFirst( 10 );
+		dList.addFirst( 25 );
+		dList.addFirst( 8 );
+		dList.addFirst( 17 );
+		dList.addFirst( 42 );
+		dList.addFirst( 56 );
+		dList.addFirst( 33 );
+		dList.addFirst( 71 );
+		dList.addFirst( 94 );
+		dList.addFirst( 12 );
+
+		MyNode<Integer> curr = dList.getHead();
+		for( int i = 0; i < dList.size(); i++ )
+		{
+			System.out.println( "Add First: " + curr.getElement() );
+			curr = curr.getNext();
+		}
+
 //		// testing addLast() (Thanks ChatGPT for the numbers)
-//		dList.addLast( 5 );
-//		dList.addLast( 18 );
-//		dList.addLast( 30 );
-//		dList.addLast( 47 );
-//		dList.addLast( 22 );
-//		dList.addLast( 14 );
-//		dList.addLast( 36 );
-//		dList.addLast( 59 );
-//		dList.addLast( 41 );
-//		dList.addLast( 13 );
-//
-//		curr = dList.getHead();
-//		for( int i = 0; i < dList.size(); i++ )
-//		{
-//			System.out.println( "Added Last: " + curr.getElement() );
-//			curr = curr.getNext();
-//		}
-//
+		dList.addLast( 5 );
+		dList.addLast( 18 );
+		dList.addLast( 30 );
+		dList.addLast( 47 );
+		dList.addLast( 22 );
+		dList.addLast( 14 );
+		dList.addLast( 36 );
+		dList.addLast( 59 );
+		dList.addLast( 41 );
+		dList.addLast( 13 );
+
+		curr = dList.getHead();
+		for( int i = 0; i < dList.size(); i++ )
+		{
+			System.out.println( "Added Last: " + curr.getElement() );
+			curr = curr.getNext();
+		}
+
 //		// testing removeFirst()
-//		Integer rm = dList.removeFirst();
-//		System.out.println( "Removed First: " + rm );
-//
+		Integer rm = dList.removeFirst();
+		System.out.println( "Removed First: " + rm );
+
 //		// testing removeLast()
-//		rm = dList.removeLast();
-//		System.out.println( "Removed Last: " + rm );
-//
-//		// testing size()
-//		System.out.println( "Size: " + dList.size() );
-//
+		rm = dList.removeLast();
+		System.out.println( "Removed Last: " + rm );
+
+		// testing size()
+		System.out.println( "Size: " + dList.size() );
+
 //		// testing isEmpty()
-//		System.out.println( "IsEmpty? " + dList.isEmpty() );
+		System.out.println( "IsEmpty? " + dList.isEmpty() );
 
 	}
 
